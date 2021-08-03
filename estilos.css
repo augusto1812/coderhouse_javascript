@@ -1,0 +1,113 @@
+html {
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-image: linear-gradient(
+    45deg,
+    #85ffbd 0%,
+    #fffb7d 50%,
+    #ffffff 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+ul {
+  list-style: square;
+  line-height: 0.1;
+}
+ul li {
+  line-height: 0.1rem;
+}
+
+ul li:hover {
+  color: #325f48;
+  transition: 150ms linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "eurostile", sans-serif;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "europa", sans-serif;
+}
+
+fieldset {
+  padding: 00.5rem;
+  margin: 0.5rem;
+  color: #325f48;
+}
+
+h1 {
+  color: #325f48;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonPrincipal {
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#obtenerResultados,
+#fieldset,
+#datosCargadosCorrectamente,
+#resultadoIMC,
+#recomendacionDieta,
+#masResultados {
+  display: none;
+}
+
+.boton,
+.botonPrincipal {
+  background-image: linear-gradient(
+    to right,
+    #85ffbd 0%,
+    #fffb7d 51%,
+    #85ffbd 100%
+  );
+}
+.boton,
+.botonPrincipal {
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.boton:hover,
+.botonPrincipal:hover {
+  background-position: right center;
+  text-decoration: none;
+  cursor: pointer;
+}

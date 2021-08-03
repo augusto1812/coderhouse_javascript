@@ -1,0 +1,14 @@
+[
+  {
+    "tipoDieta": "vegana",
+    "carbs": "frutas,vegetales,cereales",
+    "prote": "legumbres,tofu,tempeh",
+    "grasas": "aceite de oliva,frutos secos,palta"
+  },
+  {
+    "tipoDieta": "carnivora",
+    "carbs": "frutas,vegetales,cereales",
+    "prote": "carnes,huevos,lactos",
+    "grasas": "aceite de oliva,frutos secos,palta"
+  }
+]

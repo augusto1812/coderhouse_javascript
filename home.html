@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <script src="./functions/jquery.js"></script>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <h1 id="titulo">Asistente Saludable</h1>
+    <h2>¿Desea saber mas sobre su nutrición?</h2>
+    <div>
+      <button id="completarDatos" class="botonPrincipal">Quiero saber!</button>
+    </div>
+    <div>
+      <p id="formulario"></p>
+      <form action="">
+        <fieldset id="fieldset">
+          <legend>Complete sus datos para mas información</legend>
+          <label>Nombre</label>
+          <input type="text" id="nombre" /><br />
+          <label>Peso</label>
+          <input type="number"/ id="peso"><br />
+          <label>Altura</label>
+          <input type="number" id="altura" /><br />
+          <label>Es vegano?</label>
+          <input type="checkbox" id="esVegano" /><br />
+          <label>Es celíaco?</label>
+          <input type="checkbox" id="esCeliaco" /><br />
+          <button type="button" class="boton" id="cargarDatos">Cargar Datos</button>
+          <input type="reset" class="boton" id="limpiarFormulario" value="Limpiar Formulario" />
+          <p id="datosCargadosCorrectamente">Datos cargados correctamente!</p>
+        </fieldset>
+      </form>
+      <fieldset id="resultadoIMC">
+        <p id="imc"></p>
+        <p id="categoriaIMC"></p>
+      </fieldset>
+      <fieldset id="recomendacionDieta">
+        <p id="dieta"></p>
+        <p id="celiaco"></p>
+      </fieldset>
+    </div>
+    <div>
+      <button class="boton" id="obtenerResultados">Obtener Resultados</button>
+      <button class="boton" id="masResultados">¿Desea ingresar otros datos?</button>
+    </div>
+    <script src="./home.js"></script>
+    <script src="./functions/obtenerdatos.js"></script>
+    <script src="./functions/mostrarresultados.js"></script>
+  </body>
+</html>
